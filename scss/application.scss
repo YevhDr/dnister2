@@ -47,7 +47,7 @@ body {
   position:absolute;
   top:0;
   left:0;
-  background: #225470;
+  background: #e3e3e3;
 }
 
 .header-content{
@@ -64,6 +64,7 @@ body {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
+  margin-top: 40px;
   height: 0;
 }
 .videoWrapper iframe {
@@ -84,6 +85,15 @@ body {
   z-index: -100;
   width:100%;
 }
+
+
+#cut {
+  margin-left:-100px;
+  margin-right:-300px;
+
+}
+
+
 
 .photo {
   width:100% !important;
@@ -220,9 +230,6 @@ p, li {
 
 /* scrollama */
 
-body {
-  margin-bottom: 200vh;
-}
 .parent {
   position: relative;
 }
